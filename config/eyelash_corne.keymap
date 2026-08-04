@@ -10,7 +10,6 @@
 
 / {
     behaviors {
-        // Leftmost top tap: ESC, hold: MOUSE layer
         lt_esc: lt_esc {
             compatible = "zmk,behavior-hold-tap";
             label = "LT_ESC";
@@ -20,7 +19,6 @@
             bindings = <&mo>, <&kp>;
         };
 
-        // Leftmost mid tap: TAB, hold: SYMBOL layer
         lt_tab: lt_tab {
             compatible = "zmk,behavior-hold-tap";
             label = "LT_TAB";
@@ -30,7 +28,6 @@
             bindings = <&mo>, <&kp>;
         };
 
-        // Rightmost top tap: DELETE, hold: MOUSE layer
         lt_del: lt_del {
             compatible = "zmk,behavior-hold-tap";
             label = "LT_DEL";
@@ -40,7 +37,6 @@
             bindings = <&mo>, <&kp>;
         };
 
-        // Rightmost mid tap: ENTER, hold: MOUSE layer
         lt_ent: lt_ent {
             compatible = "zmk,behavior-hold-tap";
             label = "LT_ENT";
@@ -50,7 +46,6 @@
             bindings = <&mo>, <&kp>;
         };
 
-        // Thumb tap: SPACE, hold: NUMBER layer
         lt_spc: lt_spc {
             compatible = "zmk,behavior-hold-tap";
             label = "LT_SPC";
@@ -60,7 +55,6 @@
             bindings = <&mo>, <&kp>;
         };
 
-        // Thumb tap: BACKSPACE, hold: NUMBER layer
         lt_bspc: lt_bspc {
             compatible = "zmk,behavior-hold-tap";
             label = "LT_BSPC";
@@ -87,9 +81,9 @@
         number_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp PLUS   &kp N7  &kp N8  &kp N9  &kp STAR     &kp K_APP     &kp PG_DN  &kp UP       &kp PG_UP    &kp PSCRN  &trans
-&trans  &kp MINUS  &kp N4  &kp N5  &kp N6  &kp PRCNT    &kp HOME      &kp LEFT   &kp DOWN     &kp RIGHT    &kp END    &trans
-&trans  &kp N0     &kp N1  &kp N2  &kp N3  &kp EQUAL    &kp C_BRI_DN  &kp C_BRI_UP &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans
+&trans  &kp PLUS   &kp N7  &kp N8  &kp N9  &kp STAR     &kp K_APP     &kp PG_DN  &kp UP       &kp PG_UP    &kp PRINTSCREEN &trans
+&trans  &kp MINUS  &kp N4  &kp N5  &kp N6  &kp PRCNT    &kp HOME      &kp LEFT   &kp DOWN     &kp RIGHT    &kp END         &trans
+&trans  &kp N0     &kp N1  &kp N2  &kp N3  &kp EQUAL    &kp C_BRI_DN  &kp C_BRI_UP &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE      &trans
                            &trans  &trans  &trans       &trans        &trans     &trans
             >;
         };
@@ -98,7 +92,7 @@
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp GRAVE  &kp TILDE  &kp LPAR  &kp RPAR    &none  &kp EXCL   &kp PIPE  &kp BSLH  &none  &none  &trans
-&trans  &kp SQT    &kp DQT    &kp LBRC  &kp RBRC    &none  &kp CARET  &kp AT    &kp DLLR  &none  &none  &trans
+&trans  &kp SQT    &kp DOUBLE_QUOTES &kp LBRC &kp RBRC &none &kp CARET &kp AT   &kp DLLR  &none  &none  &trans
 &trans  &none      &kp UNDER  &kp LBKT  &kp RBKT    &none  &kp AMPS   &kp HASH  &none     &none  &none  &trans
                               &trans    &trans      &trans &trans     &trans    &trans
             >;
