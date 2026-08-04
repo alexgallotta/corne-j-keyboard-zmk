@@ -109,7 +109,7 @@
 &trans  &kp F11  &kp F12  &none   &none   &none      &mmv MOVE_DOWN  &none           &mkp LCLK       &mkp MCLK       &mkp RCLK       &none  &trans
                           &trans  &trans  &trans     &trans          &trans          &trans          &trans
             >;
-            sensor-bindings = <&inc_dec_msc SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&inc_dec_kp SCRL_UP SCRL_DOWN>;
         };
     };
 };
