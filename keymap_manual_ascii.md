@@ -19,9 +19,9 @@ LAYER 1: NUMBER
 ========================================================================================================
 LAYER 2: SYMBOL
 ========================================================================================================
-&trans  &none `    ~    (    ) &none                 &trans           &none  !  |  \  &none       &trans
-&trans  &none '    "    {    } &none          &trans  &trans &trans   &none  ^  @  $  &none       &trans
-&trans  &none &none  _    [    ] &none &none          &trans          &none  &  # &none   &none   &trans
+&trans  &none `    ~    (    )                       &trans           &none  !  |  \  &none       &trans
+&trans  &none '    "    {    }                &trans  &trans &trans   &none  ^  @  $  &none       &trans
+&trans  &none &none  _    [    ]       &none          &trans          &none  &  # &none   &none   &trans
 
                      &trans &trans &trans             &trans &trans &trans
 
@@ -29,7 +29,7 @@ LAYER 2: SYMBOL
 LAYER 3: MOUSE (Fn / F-Keys Layer)
 ========================================================================================================
 &trans  F1   F2   F3   F4   F5                    &trans         M_R_BTN SCL_DWN M_UP    SCL_UP &none    &trans
-&trans  F6   F7   F8   F9   F10            &trans  &trans &trans SCL_LEFT M_LEFT M_DWN M_RIGHT SCL_RIGHT &trans
+&trans  F6   F7   F8   F9   F10         &bt_prev &trans &bt_next SCL_LEFT M_LEFT M_DWN M_RIGHT SCL_RIGHT &trans
 &trans  F11  F12  &none &none &none &none          &trans        &none M_L_BTN M_M_BTN M_R_BTN &none     &trans
 
                      &trans &trans &trans             &trans &trans &trans
