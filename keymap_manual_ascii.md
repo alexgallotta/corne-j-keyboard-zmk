@@ -2,7 +2,7 @@
 LAYER 0: QWERTY (Default)
 ========================================================================================================
 [ESC/MOUSE]  Q    W    E    R    T                    up            Y    U    I    O    P    [DEL/MOUSE]
-[TAB/SYM]    A    S    D    F    G              left ent right      H    J    K    L    ;    [ENT/MOUSE]
+[TAB/SYM]    A    S    D    F    G              left ent right      H    J    K    L    ;    [ENT/SYM]
 LCTRL        Z    X    C    V    B    &none          down          N    M    ,    .    /    RCTRL
                     
                 LALT  LSHFT  [SPC/NUM]         [BSPC/NUM]  RSHFT  RGUI
