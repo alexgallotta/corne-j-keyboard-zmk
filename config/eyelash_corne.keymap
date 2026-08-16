@@ -34,7 +34,7 @@
 &trans  &kp N0     &kp N1  &kp N2  &kp N3  &kp EQUAL    &none           &trans                            &rgb_ug RGB_TOG &rgb_ug RGB_BRD &rgb_ug RGB_BRI &none &none &trans
                         &trans  &trans  &trans                                                                          &trans        &trans     &trans
             >;
-        };;
+        };
 
         sym_layer {
             bindings = <
