@@ -22,6 +22,11 @@
     acceleration-exponent = <1>;    // default: 1
 };
 
+&msc {
+    time-to-max-speed-ms = <200>;   // default: 300
+    acceleration-exponent = <1>;    // default: 0 — this is the key change
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
