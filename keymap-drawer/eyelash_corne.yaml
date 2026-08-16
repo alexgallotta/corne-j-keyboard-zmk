@@ -58,9 +58,9 @@ layers:
   - '*'
   - {t: '$$mdi:transfer$$', type: trans}
   - APP
-  - RGB HUI
+  - PG DN
   - $$mdi:arrow-up-bold$$
-  - RGB HUD
+  - PG UP
   - $$mdi:printer-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -73,9 +73,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
-  - RGB HUD
+  - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
-  - RGB HUI
+  - $$mdi:arrow-right-bold$$
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -86,11 +86,11 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB TOG
-  - RGB BRD
-  - RGB BRI
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:brightness-7$$
+  - $$mdi:brightness-5$$
+  - $$mdi:volume-off$$
+  - $$mdi:volume-high$$
+  - $$mdi:volume-low$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
