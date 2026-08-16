@@ -23,7 +23,7 @@
 };
 
 &msc {
-    time-to-max-speed-ms = <200>;   // default: 300
+    time-to-max-speed-ms = <300>;   // default: 300
     acceleration-exponent = <1>;    // default: 0 — this is the key change
 };
 
