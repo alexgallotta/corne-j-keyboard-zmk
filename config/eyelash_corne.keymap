@@ -32,7 +32,7 @@
             bindings = <
 &trans  &kp PLUS   &kp N7  &kp N8  &kp N9  &kp ASTRK                                 &rgb_ug RGB_BRI                   &kp K_APP     &kp PG_DN  &kp UP    &kp PG_UP  &kp PSCRN  &trans
 &trans  &kp MINUS  &kp N4  &kp N5  &kp N6  &kp PRCNT                 &rgb_ug RGB_HUD &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &kp HOME      &kp LEFT   &kp DOWN  &kp RIGHT  &kp END    &trans
-&trans  &kp N0     &kp N1  &kp N2  &kp N3  &kp EQUAL  &none                          &rgb_ug RGB_BRD                   &kp C_BRI_DN  &kp C_BRI_UP &kp C_MUTE &kp C_VOL_UP &kp C_VOL_DN &trans
+&trans  &kp N0     &kp N1  &kp N2  &kp N3  &kp EQUAL  &none                          &rgb_ug RGB_BRD                   &kp C_BRI_DN  &kp C_BRI_UP &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &trans
                            &trans  &trans  &trans                                                                      &trans        &trans     &trans
             >;
         };
