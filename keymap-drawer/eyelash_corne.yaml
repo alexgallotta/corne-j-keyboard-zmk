@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   default:
-  - {t: '$$mdi:keyboard-esc$$', h: mouse}
+  - {t: '$$mdi:keyboard-esc$$', h: sym}
   - Q
   - W
   - E
@@ -13,8 +13,8 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace-reverse-outline$$', h: mouse}
-  - {t: '$$mdi:keyboard-tab$$', h: sym}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: sym}
+  - {t: '$$mdi:keyboard-tab$$', h: mouse}
   - A
   - S
   - D
@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '$$mdi:keyboard-return$$', h: sym}
+  - {t: '$$mdi:keyboard-return$$', h: mouse}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -99,7 +99,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   sym:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '`', s: '~'}
   - '~'
   - (
@@ -111,8 +111,8 @@ layers:
   - '|'
   - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '''', s: '"'}
   - '"'
   - {t: '[', s: '{'}
@@ -126,7 +126,7 @@ layers:
   - '@'
   - $
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - _
@@ -148,7 +148,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   mouse:
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
@@ -160,8 +160,8 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - $$mdi:pan-up$$
   - $$mdi:mouse-right-click-outline$$
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - F6
   - F7
   - F8
@@ -175,7 +175,7 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:pan-right$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - F12
