@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '$$mdi:keyboard-return$$', h: mouse}
+  - mouse
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
